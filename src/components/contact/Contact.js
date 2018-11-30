@@ -9,7 +9,8 @@ class Contact extends Component {
             return (
                 <div className="App">
                     <header className="App-header">
-                    <p> Questo è about</p>
+                    <p> Questo è Contact </p>  
+                     <p> Questo è Contact </p>
 
                     </header>
                 </div>
