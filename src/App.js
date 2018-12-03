@@ -20,17 +20,19 @@ class App extends Component {
         <li>
             <Link to='/'> Home </Link>
         </li>
+
         <li>
             <Link to='/contact/'> Contact </Link>
         </li>
+
         <li>
             <Link to='/about/'> About </Link>
         </li>
     </nav>
 
-      <Route patch='/' exact Component={Home} />
-      <Route patch='/about/' Component={About} />
-      <Route patch='/contact/' Component={Contact} />
+      <Route path='/' exact component={Home} />
+      <Route path='/about/' component={About} />
+      <Route path='/contact/' component={Contact} />
 
   </div>
 

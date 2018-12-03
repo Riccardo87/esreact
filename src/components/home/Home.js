@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 
 import Menu from '../menu/Menu.js'
 
+import '../.././css/App.css';
+
 class Home extends Component {
 
     constructor(props) {
@@ -13,9 +15,6 @@ class Home extends Component {
             <div className="App">
                 <header className="App-header">
                     
-                <Menu />
-                    
-                
                     <p> Questo è Home</p>
 
                 
